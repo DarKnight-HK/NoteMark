@@ -5,7 +5,7 @@ import { fileEncoding } from "../../shared/constants"
 import { dialog } from "electron"
 import path from "path"
 import { isEmpty } from "lodash"
-import Welcome from "../../../../resources/welcome.md?asset"
+import Welcome from "../../../../resources/Welcome.md?asset"
 export const getRootDir = () => {
   return `/home/hex/Documents/NoteMark`
 }
