@@ -7,7 +7,7 @@ import path from "path"
 import { isEmpty } from "lodash"
 import Welcome from "../../../resources/Welcome.md?asset"
 export const getRootDir = () => {
-  return `/home/hex/Documents/NoteMark`
+  return process.cwd().replace(/\\/g, "/")
 }
 
 export const getNotes: GetNotes = async () => {
