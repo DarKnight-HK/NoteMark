@@ -9,7 +9,7 @@ export const DeleteNoteButton = ({ ...props }: ActionButtonProps) => {
   }
   return (
     <ActionButton onClick={handleDelete} {...props}>
-      <FaRegTrashCan className="size-4 text-zinc-300" />
+      <FaRegTrashCan className="size-4 text-rose-600" />
     </ActionButton>
   )
 }

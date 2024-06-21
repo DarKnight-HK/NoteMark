@@ -10,7 +10,7 @@ export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
   }
   return (
     <ActionButton onClick={handleCreate} {...props}>
-      <LuFileSignature className="size-4 text-zinc-300" />
+      <LuFileSignature className="size-4 dark:text-zinc-300 text-zinc-600" />
     </ActionButton>
   )
 }
